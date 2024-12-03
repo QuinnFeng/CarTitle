@@ -1,0 +1,119 @@
+.container {
+    justify-self: center;
+    position: relative;
+}
+
+body {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
+#car-id {
+    position: absolute;
+    top: 11.5rem;
+    left: 29rem;
+    display: inline-flex;
+}
+
+.id {
+    display: inline-flex;
+}
+
+.empty-space {
+    width: 10px;
+}
+
+#car-characterstics {
+    position: absolute;
+    top: 16.5rem;
+    left: 20rem;
+    display: inline-flex;   
+}
+
+#issue-date {
+    position: absolute;
+    top: 20.5rem;
+    left: 22rem;
+    display: inline-flex;
+}
+
+#address {
+    position: absolute;
+    top:27.2rem;
+    left: 20.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#owner{
+    position: absolute;
+    top: 36.5rem;
+    left: 70.5rem;
+}
+
+#license-number{
+    position: absolute;
+    top: 40.7rem;
+    left: 53rem;
+}
+
+pre{
+    font-family: inherit;
+    display: inline-flex;
+}
+
+.small-space{
+    width:3px;
+}
+
+#control-number{
+    background-color: white;
+    position: absolute;
+    top:49rem;
+    left: 68.8rem;
+    width: 24.2rem;
+    height: 9.4rem;
+    transform: rotate(0.5deg);
+}
+
+
+#control-number img{
+    width: 20rem;
+    padding-left: 2rem;
+    height:5rem;
+}
+
+.cn{
+    display: flex;
+    align-items: center;
+}
+
+.cn span{
+    font-size: 10px;
+    display: flex;
+    width:20px;
+    color:rgb(125, 10, 149);
+    padding:  4px 32px 0 8px;
+    font-weight: 600;
+}
+
+.cn p{
+    margin: 0;
+    font-size: 2.5rem;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+#KW{
+    position: absolute;
+    top: 83.5rem;
+    left: 64rem;
+}
+
+#KW span{
+    letter-spacing: 2px;
+    padding-left: 24px;
+}
