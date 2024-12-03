@@ -1,119 +1,130 @@
 .container {
-    justify-self: center;
-    position: relative;
+  justify-self: center;
+  position: relative;
 }
 
 body {
-    font-family: "Noto Serif", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.8rem;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.92rem;
 }
 
 #car-id {
-    position: absolute;
-    top: 11.5rem;
-    left: 29rem;
-    display: inline-flex;
+  position: absolute;
+  top: 5.9rem;
+  left: 14.8rem;
+  display: inline-flex;
+}
+
+.title-image {
+  width: 54rem;
+  height: 100%;
 }
 
 .id {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .empty-space {
-    width: 10px;
+  width: 9px;
 }
 
 #car-characterstics {
-    position: absolute;
-    top: 16.5rem;
-    left: 20rem;
-    display: inline-flex;   
+  position: absolute;
+  top: 8.6rem;
+  left: 10.4rem;
+  display: inline-flex;
 }
 
 #issue-date {
-    position: absolute;
-    top: 20.5rem;
-    left: 22rem;
-    display: inline-flex;
+  position: absolute;
+  top: 10.7rem;
+  left: 11.3rem;
+  display: inline-flex;
 }
 
 #address {
-    position: absolute;
-    top:27.2rem;
-    left: 20.5rem;
-    display: flex;
-    flex-direction: column;
+  position: absolute;
+  top: 14.1rem;
+  left: 10.4rem;
+  display: flex;
+  flex-direction: column;
 }
 
-#owner{
-    position: absolute;
-    top: 36.5rem;
-    left: 70.5rem;
+#address span {
+  letter-spacing: 1px;
 }
 
-#license-number{
-    position: absolute;
-    top: 40.7rem;
-    left: 53rem;
+#owner {
+  position: absolute;
+  top: 18.8rem;
+  left: 36rem;
 }
 
-pre{
-    font-family: inherit;
-    display: inline-flex;
+#license-number {
+  position: absolute;
+  top: 21.1rem;
+  left: 27.5rem;
 }
 
-.small-space{
-    width:3px;
+pre {
+  font-family: inherit;
+  display: inline-flex;
 }
 
-#control-number{
-    background-color: white;
-    position: absolute;
-    top:49rem;
-    left: 68.8rem;
-    width: 24.2rem;
-    height: 9.4rem;
-    transform: rotate(0.5deg);
+.small-space {
+  width: 3px;
 }
 
-
-#control-number img{
-    width: 20rem;
-    padding-left: 2rem;
-    height:5rem;
+#control-number {
+  background-color: white;
+  position: absolute;
+  top: 25.2rem;
+  left: 35.3rem;
+  width: 12.5rem;
+  height: 4.7rem;
+  transform: rotate(0.5deg);
 }
 
-.cn{
-    display: flex;
-    align-items: center;
+#control-number img {
+  width: 10.5rem;
+  padding-left: 1.5rem;
+  height: 2.5rem;
+  margin-top: 3px;
 }
 
-.cn span{
-    font-size: 10px;
-    display: flex;
-    width:20px;
-    color:rgb(125, 10, 149);
-    padding:  4px 32px 0 8px;
-    font-weight: 600;
+.cn {
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
 }
 
-.cn p{
-    margin: 0;
-    font-size: 2.5rem;
-    padding-left: 20px;
-    letter-spacing: 2px;
+.cn span {
+  font-size: 7px;
+  display: flex;
+  width: 10px;
+  color: rgb(125, 10, 149);
+  padding: 4px 16px 0px 4px;
+  font-weight: 600;
 }
 
-#KW{
-    position: absolute;
-    top: 83.5rem;
-    left: 64rem;
+.cn p {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  line-height: 4px;
 }
 
-#KW span{
-    letter-spacing: 2px;
-    padding-left: 24px;
+#KW {
+  position: absolute;
+  top: 42.8rem;
+  left: 34rem;
+}
+
+#KW span {
+  letter-spacing: 2px;
+  padding-left: 17.5px;
 }
